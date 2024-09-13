@@ -1,6 +1,15 @@
 export default function Experience() {
+  const technology = [
+    "Laravel",
+    "React Js",
+    "Html & Css",
+    "Tailwind Css",
+    "React Query",
+    "Framer Motion",
+    "Strip",
+  ];
   return (
-    <div className="pr-40 pl-40 mt-36" id="experience">
+    <div className="lg:pr-40 p-10 lg:pl-40 mt-36" id="experience">
       <div className="flex items-center justify-between">
         <h1 className="text-4xl font-bold">
           Experience <span className="text-lightGreen text-5xl">.</span>
@@ -31,6 +40,16 @@ export default function Experience() {
             Administrators access detailed statistics and manage cars, users,
             and borrowing records through dashboards.
           </p>
+        </div>
+        <div className="flex mt-5">
+          {technology.map((item, index) => (
+            <p
+              key={index}
+              className="mr-2 text-teal-300 bg-teal-400/10 pt-1 pb-1 pl-3 pr-3 leading-5 rounded-2xl"
+            >
+              {item}
+            </p>
+          ))}
         </div>
       </div>
     </div>
