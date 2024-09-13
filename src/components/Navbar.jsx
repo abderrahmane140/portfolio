@@ -5,8 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
-    <nav>
-      <div className="flex justify-end md:justify-between items-center p-4">
+    <nav className="fixed top-0 w-full z-50 shadow-md">
+      <div className="flex  justify-end md:justify-between bg-opacity-10 backdrop-blur-md items-center p-4">
         <div className="font-bold text-2xl hidden lg:block">
           <h1 className="hover:text-lightGreen">Bsar</h1>
         </div>

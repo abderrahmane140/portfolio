@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #020c1b;
+    color: #ccd6f6;
+    font-family: "NTR", sans-serif;
+    font-style: normal;
+}
+
+::selection{
+    background: #5eead4;
+    color: #020c1b;
+}
