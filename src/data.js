@@ -9,7 +9,7 @@ export const data =[
     },
     {
         id:3,
-        title:"Tool for Simplified Shopping Cart Analysis",
+        title:"Tool for Simplified Shopping Cart",
         description:"Developed a full-stack application to help e-commerce administrators analyze sales data. The tool provides insights into total sales, top-selling products, and sales distribution by category. It features an interactive dashboard with visual representations like bar charts and pie charts. The application includes well-defined APIs for retrieving key metrics and performing data aggregation. Focused on creating an intuitive user interface, ensuring data accuracy, and delivering a maintainable and well-documented solution for easy setup and use.",
         technology:["Vuejs" ,"Nodejs" ,"Typescript", "Chartjs" ,"MongoDB"],
         link:"https://github.com/abderrahmane140/Outil-simplifi-d-analyse-des-paniers-d-achat",
