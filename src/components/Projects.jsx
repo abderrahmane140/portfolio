@@ -20,12 +20,12 @@ export default function Projects() {
                 </div>
                 <div className="flex flex-col gap-2">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-white font-bold text-xl group-hover:text-lightGreen transition duration-300">
+                    <h1 className="text-white font-bold text-xl group-hover:text-sky-300 transition duration-300">
                     {item.title || "Untitled Project"}
                     </h1>
                     <a
                     href={item.link}
-                    className="text-white hover:text-lightGreen flex items-center gap-1 hover:underline"
+                    className="text-white hover:text-sky-300 flex items-center gap-1 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                     >
@@ -37,7 +37,7 @@ export default function Projects() {
                 </p>
                 <p className="text-sm flex flex-wrap gap-2 text-gray-400">
                     {item.technology.map(item=>(
-                        <p className="text-teal-300 bg-teal-400/10 px-2 py-1 rounded-2xl text-sm">{item}</p>
+                        <p className="text-sky-300 bg-teal-400/10 px-2 py-1 rounded-2xl text-sm">{item}</p>
                     ))}
                 </p>
                 </div>

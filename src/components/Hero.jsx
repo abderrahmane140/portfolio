@@ -47,25 +47,25 @@ export default function Hero() {
   }, []);
 
   return (
-    <header className="p-10 scroll-smooth">
-      <div className="space-y-3">
-        <h1 className="text-5xl font-source font-extrabold text-lightGreen">
+    <header className="p-10">
+      <div className="space-y-3 text-white">
+        <h1 className="text-5xl font-source font-extrabold text-sky-300">
           Bsar Abderrahmane
         </h1>
-        <h2 className="text-xl text-white">Full Stack Developer</h2>
-        <p className="text-sm text-white">
+        <h2 className="text-xl">Full Stack Developer</h2>
+        <p className="text-sm">
           I build accessible, user-friendly interfaces.
         </p>
       </div>
 
       <nav className="mt-20" aria-label="Main navigation">
-        <ul className="flex flex-col gap-4 text-white uppercase">
+        <ul className="flex flex-col gap-2 text-white uppercase">
           {navLinks.map(({ href, label }) => (
             <li key={href}>
               <a
                 href={href}
-                className={`transition-colors duration-300 hover:text-lightGreen ${
-                  activeLink === href.slice(1) ? "text-lightGreen font-bold" : ""
+                className={`transition-colors duration-300 hover:text-sky-300 ${
+                  activeLink === href.slice(1) ? "text-sky-300 font-bold" : ""
                 }`}
               >
                 {label}
@@ -82,7 +82,8 @@ export default function Hero() {
               <a
                 href={href}
                 aria-label={label}
-                className="text-white hover:text-lightGreen transition-colors"
+                className="text-white group hover:text-sky-300 transition-colors duration-300
+"
               >
                 <Icon size={30} />
               </a>

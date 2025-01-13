@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="bg-gray-950 flex h-screen">
+    <div className="bg-slate-950 flex h-screen">
       {/* Left Half: Hero Section */}
       <div className="w-1/2 p-10 h-full">
         <Hero />
