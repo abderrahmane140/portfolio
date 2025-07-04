@@ -5,7 +5,7 @@ export const data =[
     description: "An e-commerce web application that allows users to browse and purchase various tools. Customers can add products to a cart and securely checkout. An integrated admin panel gives the business owner full control over product management, orders, and user data. Built for a smooth and efficient shopping experience.",
     technology: ["Laravel", "Tailwind CSS", "Laravel Breeze"],
     link: "https://github.com/AbdeljalilRa/AZ-Douzani-services", 
-    img: "../../src/assets/img/tools_service.png", 
+    img: "/img/tools_service.png", 
     live: "http://tools-service.byethost5.com/"
     },
     {
@@ -14,7 +14,7 @@ export const data =[
         description:"This car rental app lets users search and reserve cars by brand, pay securely online via Stripe, and automatically receive a rental contract. It offers a user-friendly experience from browsing to payment and contract generation",
         technology:["Laravel","React js","tailwind-css","React Query","Framer-Motion","Strip"],
         link:"https://github.com/abderrahmane140/location-voiture-app",
-        img: "../../src/assets/img/car_rental_project.png",
+        img: "img/car_rental_project.png",
         live:false
     },
     {
@@ -23,7 +23,7 @@ export const data =[
         description:"Developed a full-stack application for e-commerce administrators to analyze sales data, featuring an interactive dashboard with bar and pie charts. Built well-defined APIs for data aggregation, ensured an intuitive UI, data accuracy, and delivered a maintainable, well-documented solution.",
         technology:["Vuejs" ,"Nodejs" ,"Typescript", "Chartjs" ,"MongoDB"],
         link:"https://github.com/abderrahmane140/Outil-simplifi-d-analyse-des-paniers-d-achat",
-        img: "../../src/assets/img/Simplif_tool.png",
+        img: "img/Simplif_tool.png",
         live:false
     },
     {
@@ -32,7 +32,7 @@ export const data =[
         description:"Built a classic Tic-Tac-Toe game using React.js and CSS, featuring real-time two-player gameplay, win/draw detection, and a reset option within a simple, intuitive UI..",
         technology:["React js","Css"],
         link:"https://github.com/abderrahmane140/tic-tac-toe",
-        img: "../../src/assets/img/tic-tac-toe.png",
+        img: "/img/tic-tac-toe.png",
         live:false
     }
 ]
