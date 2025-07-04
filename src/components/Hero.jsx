@@ -60,7 +60,7 @@ export default function Hero() {
            Bsar Abderrahmane 
         </motion.h1>
         <motion.h2 
-          className="text-lg md:text-xl font-bold text-purple-300"
+          className="text-sm md:text-xl font-bold text-purple-300"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
