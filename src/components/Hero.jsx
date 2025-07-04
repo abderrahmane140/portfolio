@@ -52,7 +52,7 @@ export default function Hero() {
     <header className="p-6 md:p-10">
       <div className="space-y-3">
         <motion.h1 
-        className="text-3xl md:text-5xl font-source font-extrabold text-purple-300"
+        className="text-2xl md:text-5xl font-source font-extrabold text-purple-300"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
